@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 100d491a20c9908409930f4e91032a76
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - backgroundPrefab: {instanceID: 0}
+  - wallPrefab: {instanceID: 0}
+  - benchPrefab: {instanceID: 0}
+  - bookPrefab: {instanceID: 0}
+  - torchPrefab: {instanceID: 0}
+  - collectablePrefab: {instanceID: 0}
+  - cratePrefab: {instanceID: 0}
+  - tablePrefab: {instanceID: 0}
+  - doorPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
