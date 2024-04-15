@@ -7,7 +7,7 @@ using MiniJSON;
 
 public class DungeonMapLoader : MonoBehaviour
 {
-    public string serverURL = "http://localhost:8000/get_map";
+    public string serverURL;
 
     public GameObject backgroundPrefab;
     public GameObject wallPrefab;
@@ -110,6 +110,7 @@ public class DungeonMapLoader : MonoBehaviour
                     Vector3 tilePosition = new Vector3(j * tileSize, -i * tileSize, 0f);
 
                     // Instantiate the prefab at the calculated position with no rotation
+
                     Instantiate(prefabToInstantiate, tilePosition, Quaternion.identity);
                     Debug.Log($"Instantiated {prefabToInstantiate.name} at {tilePosition}");
                 }

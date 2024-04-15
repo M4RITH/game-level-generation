@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/ModelSelection.unity
+    guid: d1221fc41d75b484facac52dd2ceba3f
+  - enabled: 1
+    path: Assets/Scenes/GAN.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PixelCNN.unity
+    guid: 503674996a01bc049bcb32617fd28b06
   m_configObjects: {}
